@@ -1,12 +1,12 @@
-# Azure Role Assignment Fetcher
+# Azure PIM Role Assignment Scraper
 
 ## Overview
-This Python script interacts with the Azure Role-Based Access Control (RBAC) API to retrieve role definitions and their associated role assignments for a specific tenant. It is designed for developers and system administrators who need to audit or manage role assignments in Azure.
+This Python script interacts with the Azure Role-Based Access Control (RBAC) API to retrieve role definitions and their associated PIM role assignments for a specific tenant. It is designed for red-blue-purple teamers in order to then import into Bloodhound and use this to limit ways for hackers to come in.
 
 ## Features
 - Fetches role definitions for a specified Azure tenant.
 - Retrieves eligible role assignments linked to each role definition.
-- Outputs the data in a structured JSON format.
+- Outputs the data in a structured Bloodhiund JSON format.
 - Supports proxy configuration for network requests.
 
 ## Prerequisites
