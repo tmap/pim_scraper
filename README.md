@@ -1,4 +1,4 @@
-# Azure PIM Role Assignment Scraper
+# Azure PIM Roles Scraper
 
 ## Overview
 This Python script interacts with the Azure Role-Based Access Control (RBAC) API to retrieve role definitions and their associated PIM role assignments for a specific tenant. It is designed for red-blue-purple teamers in order to then import into Bloodhound and use this to limit ways for hackers to come in.
